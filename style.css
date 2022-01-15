@@ -14,6 +14,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 body {
   font-family: "Poppins", sans-serif;
@@ -347,6 +348,38 @@ body {
 /*                 Responsive Section                */
 /* ------------------------------------------------- */
 
+@media (max-width:1253px){
+  .home-page {
+    margin-bottom: 60px;
+  }
+  .left-section h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+  .left-section p {
+    padding: 0 100px 0 0;
+    margin-top: 20px;
+  }
+  .support{
+    padding-top: 0 ;
+    border: none
+  }
+  .support img{
+   height: ;
+   width: 60px;
+  }
+  .product img{
+    width: 250px;
+  }
+  .policy{
+    padding: 0 50px;
+    margin-right: 0;
+  }
+}
+
+
+
+
 @media (max-width:1547px){
   .container{
     margin-bottom: 50px;
@@ -376,5 +409,4 @@ body {
     width: 30px;
     height: 25px;
   }
-
 }
