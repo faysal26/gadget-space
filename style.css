@@ -31,11 +31,11 @@ body {
 .home {
   display: flex;
   justify-content: space-between;
-  max-width: 1620px;
   margin: 0 auto;
   padding: 0 50px;
   margin-top: 20px;
   align-items: flex-start;
+  width: 100%;
 }
 .site-title {
   display: flex;
@@ -86,9 +86,9 @@ body {
 
 .home-page {
   margin-bottom: 120px;
+  width: 100%;
 }
 .container {
-  max-width: 1620px;
   height: calc(100vh - 280px);
   margin: 0 auto;
   display: flex;
@@ -97,6 +97,7 @@ body {
   margin-top: 120px;
   color: #3a3a3a;
   padding: 0 40px 0 0;
+  margin-left: 120px;
 }
 .left-section h1 {
   font-size: 55px;
@@ -109,7 +110,7 @@ body {
   margin-bottom: 40px;
 }
 .left-section a {
-  background-color: #d31c1c;
+  background-color: #d31313;
   /* #E02C6D */
   padding: 8px 25px;
   border-radius: 50px;
@@ -119,13 +120,12 @@ body {
   font-weight: 700;
 }
 .right-section {
-  margin-right: 100px;
+  margin-right: 200px;
   padding-left: 80px;
 }
 .right-section:hover #drone-img {
   transform: translate(80px, -200px);
 }
-
 
 #drone-img {
   height: 280px;
@@ -139,7 +139,6 @@ body {
 .support {
   display: flex;
   justify-content: space-evenly;
-  max-width: 1420px;
   margin: 0 auto;
   padding: 20px 50px;
   border: 2px solid #f3f0f0;
@@ -153,11 +152,13 @@ body {
 /* ------------------------------------------------- */
 
 .products-section {
-  max-width: 1420px;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 100%;
+  margin: 0 auto;
+
 }
 .products-section h2 {
   font-size: 35px;
@@ -203,8 +204,8 @@ body {
 
 .see-more-option {
   text-align: right;
-  max-width: 1598px;
   margin-top: 15px;
+  margin-right: 290px;
 }
 .see-more-option a {
   text-decoration: none;
@@ -225,6 +226,7 @@ body {
   justify-content: space-around;
   align-items: center;
   margin-bottom: 50px;
+  width: 100%;
 }
 
 .policy-bar {
@@ -325,6 +327,7 @@ body {
   justify-content: center;
   align-items: center;
   padding: 20px;
+  width: 100%;
 }
 .footer-section h1 {
   font-size: 35px;
@@ -348,65 +351,3 @@ body {
 /*                 Responsive Section                */
 /* ------------------------------------------------- */
 
-@media (max-width:1253px){
-  .home-page {
-    margin-bottom: 60px;
-  }
-  .left-section h1 {
-    font-size: 40px;
-    margin-bottom: 20px;
-  }
-  .left-section p {
-    padding: 0 100px 0 0;
-    margin-top: 20px;
-  }
-  .support{
-    padding-top: 0 ;
-    border: none;
-  }
-  .support img{
-   height: ;
-   width: 60px;
-  }
-  .product img{
-    width: 250px;
-  }
-  .policy{
-    padding: 0 50px;
-    margin-right: 0;
-  }
-}
-
-
-
-
-@media (max-width:1547px){
-  .container{
-    margin-bottom: 50px;
-  }
-  
-  .left-section {
-    margin-left: 50px;
-  }
-
-  .left-section h1 {
-    font-size: 45px;
-    line-height: 35px; 
-  }
-  .see-more-option{
-    width: 1420px;
-  }
-  .policy{
-    margin-left: 60px;
-  }
-  .policy h3{
-    font-size: 15px;
-  }
-  .policy p {
-    font-size: 12px;
-  }
-  .payment img {
-    width: 30px;
-    height: 25px;
-  }
-}
