@@ -20,9 +20,9 @@ body {
 }
 
 .main-section {
-    margin-top: 100px;
-    margin-bottom: 100px;
-  }
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
 
 /* --------------------------------------------- */
 /*                 Header Section                */
@@ -83,8 +83,8 @@ body {
 /*                     Home Page                     */
 /* ------------------------------------------------- */
 
-.home-page{
-    margin-bottom: 120px;
+.home-page {
+  margin-bottom: 120px;
 }
 .container {
   max-width: 1620px;
@@ -108,7 +108,7 @@ body {
   margin-bottom: 40px;
 }
 .left-section a {
-  background-color: #c00707 ;
+  background-color: #c00707;
   /* #E02C6D */
   padding: 8px 25px;
   border-radius: 50px;
@@ -131,10 +131,10 @@ body {
   top: -350px;
 }
 
-.support{
-    display: flex;
-    justify-content: space-evenly;
-    max-width: 1420px;
+.support {
+  display: flex;
+  justify-content: space-evenly;
+  max-width: 1420px;
   margin: 0 auto;
   padding: 20px 50px;
   border: 2px solid #f3f0f0;
@@ -147,109 +147,148 @@ body {
 /*                 Products Section                  */
 /* ------------------------------------------------- */
 
-.products-section{
-    max-width: 1620px;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
+.products-section {
+  max-width: 1620px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-.products-section h2{
-    font-size: 35px;
-    font-weight: 600;
-    margin-bottom: 60px;
+.products-section h2 {
+  font-size: 35px;
+  font-weight: 600;
+  margin-bottom: 60px;
 }
-.products{
-display: grid;
-grid-template-columns: repeat(3, 1fr);
+.products {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
 }
-.product{
-padding: 20px;
-width: 70%;
-margin-bottom: 30px;
-box-shadow: .1px .1px 60px rgb(236, 234, 234);
+.product {
+  padding: 20px;
+  width: 70%;
+  margin-bottom: 30px;
+  box-shadow: 0.1px 0.1px 60px rgb(236, 234, 234);
 }
-.product h2{
-color: #18191F;
-font-size: 28px;
-margin-top: 8px;
-margin-bottom: 8px;
+.product h2 {
+  color: #18191f;
+  font-size: 28px;
+  margin-top: 8px;
+  margin-bottom: 8px;
 }
-.product h3{
-font-weight: 600;
+.product h3 {
+  font-weight: 600;
 }
-.rating-section{
-    margin-top: 5px;
-    display: flex;
-    align-items: center
-    
+.rating-section {
+  margin-top: 5px;
+  display: flex;
+  align-items: center;
 }
-.ratings{
-    color: #FB8200;
-    font-size: 12px;
-    margin-right: 10px;
-    
+.ratings {
+  color: #fb8200;
+  font-size: 12px;
+  margin-right: 10px;
 }
-.rating-section span{
-    font-size: 14px;
-    color: #5E6366;
-    font-weight: 600;
+.rating-section span {
+  font-size: 14px;
+  color: #5e6366;
+  font-weight: 600;
 }
 
-.see-more-option{
-    text-align: right;
-    max-width: 1570px;
-    margin-top: 15px;
-
+.see-more-option {
+  text-align: right;
+  max-width: 1570px;
+  margin-top: 15px;
 }
-.see-more-option a{
-text-decoration: none;
-font-size: 20px;
-font-weight: 600;
-color: #c00707;
+.see-more-option a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 600;
+  color: #c00707;
 }
 
 /* ------------------------------------------------- */
 /*                   Policy Section                  */
 /* ------------------------------------------------- */
 
-.policy-section{
+.policy-section {
   background-color: black;
   color: white;
   height: 110px;
   display: flex;
   justify-content: space-around;
   align-items: center;
+  margin-bottom: 50px;
 }
 
-.policy-bar{
+.policy-bar {
   display: flex;
-  
 }
 
-.policy{
+.policy {
   display: flex;
   align-items: center;
   margin-right: 150px;
 }
 
-.policy img{
+.policy img {
   width: 80px;
-height: 70px;
+  height: 70px;
 }
-.policy>img{
-margin-right: 10px;
+.policy > img {
+  margin-right: 10px;
 }
-.policy p{
+.policy p {
   font-size: 14px;
 }
 
-.payment img{
+.payment img {
   width: 40px;
-height: 40px;
+  height: 40px;
 }
 
 /* ------------------------------------------------- */
-/*                    Section                  */
+/*                    Link Section                   */
 /* ------------------------------------------------- */
+
+.link-section {
+  width: 90%;
+  margin: 0 auto;
+
+}
+
+.link-bar {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.links {
+  width: 80%;
+}
+.links h3{
+  margin-bottom: 15px;
+  font-weight: 600;
+  padding: 10px;
+  border-bottom: 1px solid gainsboro;
+}
+.find-us{
+  display: ;
+}
+.find-section-title{
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+.find-section-title img{
+  height: 35px;
+  width: 35px;
+}
+.find-us-info{
+  line-height: 30px;
+}
+.app-link{
+  display: flex;
+}
+.app-link img{
+  height: 120px;
+  width: 180px;
+
+}
