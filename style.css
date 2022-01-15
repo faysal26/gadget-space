@@ -210,3 +210,46 @@ font-weight: 600;
 color: #c00707;
 }
 
+/* ------------------------------------------------- */
+/*                   Policy Section                  */
+/* ------------------------------------------------- */
+
+.policy-section{
+  background-color: black;
+  color: white;
+  height: 110px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.policy-bar{
+  display: flex;
+  
+}
+
+.policy{
+  display: flex;
+  align-items: center;
+  margin-right: 150px;
+}
+
+.policy img{
+  width: 80px;
+height: 70px;
+}
+.policy>img{
+margin-right: 10px;
+}
+.policy p{
+  font-size: 14px;
+}
+
+.payment img{
+  width: 40px;
+height: 40px;
+}
+
+/* ------------------------------------------------- */
+/*                    Section                  */
+/* ------------------------------------------------- */
